@@ -10,18 +10,12 @@ section{
   margin-bottom: 20px;
 }
 
-h1, h2{
+h1{
   text-transform: uppercase;
   font-weight: 700;
-}
-
-h1{
   font-size: 24px;
 }
 
-h2{
-  font-size: 20px;
-}
 
 p{
   font-weight: 300;
@@ -30,4 +24,8 @@ p{
 
 a{
 
+}
+
+.logo{
+  width: 300px;
 }
