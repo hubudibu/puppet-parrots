@@ -1,6 +1,13 @@
 body{
   font-family: 'Roboto Slab', serif;
   text-align: center;
+  color: #323232;
+  width: 320px;
+  margin: 0 auto;
+}
+
+section{
+  margin-bottom: 20px;
 }
 
 h1, h2{
@@ -19,4 +26,8 @@ h2{
 p{
   font-weight: 300;
   font-size: 16px;
+}
+
+a{
+
 }
