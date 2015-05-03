@@ -1,25 +1,22 @@
-<!--Font Style-->
-Roboto Slab Light: 300
-Roboto Slab Bold: 700
-
 body{
   font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
-
 h1, h2{
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 h1{
-  font-weight:
+  font-size: 24px;
 }
 
 h2{
-
+  font-size: 20px;
 }
 
 p{
-
+  font-weight: 300;
+  font-size: 16px;
 }
