@@ -1,9 +1,14 @@
 /* for smaller than large screens */
 
+section {
+  width: 100%;
+}
 
+.intro {
+  background: rgba(255, 0, 0, 0.2);
+}
 
 /* for larger than small screens */
-
 @media all and (min-width: 800px) {
 
 
