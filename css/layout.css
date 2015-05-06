@@ -1,11 +1,38 @@
 /* for smaller than large screens */
 
+/*For layout purposes:*/
 section {
   width: 100%;
 }
 
+
+/*For styling the sections:*/
 .intro {
-  background: rgba(255, 0, 0, 0.2);
+  /*DEV*/background: rgba(255, 0, 0, 0.2);
+}
+
+.why {
+  /*DEV*/background: rgba(0, 255, 0, 0.2);
+}
+
+.how {
+  /*DEV*/background: rgba(0, 0, 255, 0.2);
+}
+
+.guideline {
+  /*DEV*/background: rgba(255, 255, 0, 0.2);
+}
+
+.examples {
+  /*DEV*/background: rgba(0, 255, 255, 0.2);
+}
+
+.join {
+  /*DEV*/background: rgba(255, 0, 255, 0.2);
+}
+
+.social {
+  /*DEV*/background: rgba(255, 0, 0, 0.2);
 }
 
 /* for larger than small screens */
