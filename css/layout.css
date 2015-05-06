@@ -5,6 +5,16 @@ section {
   width: 100%;
 }
 
+section h1 {
+  max-width: 320px;
+  margin: auto;
+}
+
+section p {
+  max-width: 290px;
+  margin: auto;
+}
+
 
 /*For styling the sections:*/
 .intro {
@@ -35,8 +45,27 @@ section {
   /*DEV*/background: rgba(255, 0, 0, 0.2);
 }
 
-/* for larger than small screens */
-@media all and (min-width: 800px) {
 
+
+
+/* incoming breakpoint */
+/* for larger than small screens */
+@media all and (min-width: 640px) {
+
+  body {
+    /*DEV*/background: rgba(255, 0, 0, 0.2);
+  }
+
+  section {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .intro {
+    background-image: url(../assets/headerBg.jpg);
+    background-position: 0 650px, bottom;
+    background-size: cover;
+    color: white;
+  }
 
 }
