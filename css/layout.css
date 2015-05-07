@@ -7,12 +7,12 @@ section {
 
 section h1 {
   max-width: 520px;
-  margin: auto;
+  margin-top: 20px auto;
 }
 
 section p {
   max-width: 490px;
-  margin: auto;
+  margin-bottom: 20px auto;
 }
 
 
