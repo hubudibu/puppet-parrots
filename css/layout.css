@@ -52,11 +52,11 @@ section p {
 /*For meta content and functionality:*/
 .andor:before,
 .andor:after {
+  /*DEV*/background: rgba(255, 0, 0, 0.2);
   content: "";
-  position: absolute;
+  display: inline;
   height: 5px;
   border-bottom: 1px solid white;
-  top: 0;
   width: 600px;
 }
 
@@ -74,8 +74,9 @@ section p {
   }
 
   .intro {
-    background-image: url(../assets/headerBg2.jpg);
-    background-position: 0 650px, bottom;
+    height: 444px;
+    background-image: url(../assets/headerBg.jpg);
+    background-position: 0 750px, bottom;
     background-size: cover;
     color: white;
   }
