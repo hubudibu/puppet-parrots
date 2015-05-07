@@ -3,11 +3,13 @@
 /*For layout purposes:*/
 section {
   width: 100%;
+  padding: 20px;
 }
 
 section h1 {
   max-width: 320px;
   margin: auto;
+
 }
 
 section p {
@@ -57,12 +59,13 @@ section p {
   }
 
   section {
-    max-width: 960px;
+    max-width: 920px;
     margin: auto;
+    padding: 20px;
   }
 
   .intro {
-    background-image: url(../assets/headerBg.jpg);
+    background-image: url(../assets/headerBg2.jpg);
     background-position: 0 650px, bottom;
     background-size: cover;
     color: white;
