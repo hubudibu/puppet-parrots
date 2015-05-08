@@ -24,7 +24,8 @@ p{
 }
 
 .logo{
-  max-width: 320px;
+  max-height: 60px;
+  padding: 5px 0;
 }
 
 .webname{
