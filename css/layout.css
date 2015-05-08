@@ -212,19 +212,23 @@ section p {
   line-height: 60px;
 }
 
-
-
+/*AND/OR styling*/
+.andor {
+  text-transform: uppercase;
+  color:white;
+  opacity:0.9;
+}
 
 /*For meta content and functionality:*/
 
 .andor:before,
 .andor:after {
-  /*DEV*/background: rgba(255, 0, 0, 0.2);
   content: "";
-  display: inline;
-  height: 5px;
-  border-bottom: 1px solid white;
-  width: 600px;
+  display: inline-block;
+  position:relative;
+  border-bottom: 2px solid white;
+  width: 100px;
+  margin-bottom: 3px;
 }
 
 .button-donate a{
