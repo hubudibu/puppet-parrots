@@ -15,17 +15,67 @@ section p {
   margin: auto;
 }
 
+
 /*For styling the sections:*/
+
+
+/*INTRO SECTION, ELEMENTS*/
 .intro {
-  /*DEV*/background: rgba(255, 0, 0, 0.2);
+  /*DEV*/ background-image: url(../assets/headerBg_color.jpg);
+  background-position: center, top;
+  background-size: cover;
   padding-bottom: 20px;
+  background-repeat: no-repeat;
+}
 
+.intro div{
+  margin: 0 auto;
+  width: 320px;
+}
+
+.intro div{
+  margin-top: 50px;
 
 }
 
+.button-donate{
+  position: relative;
+  border: 2px solid #1bcc68;
+  border-radius: 2px;
+  padding: 20px;
+  width: 320px;
+  text-transform: uppercase;
+  color: white;
+  text-weight: 700;
+}
+
+.button-donate:hover{
+  background: #1bcc68;
+  color: #323232;
+  radius: 0;
+}
+
+.button-donate a{
+  color: white;
+  font-weight: 700;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
+
+
+
+/*WHY SECTION, ELEMENTS*/
 .why {
-  /*DEV*/background: rgba(0, 255, 0, 0.2);
+  /*DEV*/background: #f2af5c;
 }
+
+
+
+
+
+
 
 .how {
   /*DEV*/background: rgba(0, 0, 255, 0.2);
@@ -47,19 +97,6 @@ section p {
   /*DEV*/background: rgba(255, 0, 0, 0.2);
 }
 
-.button-donate{
-  position: relative;
-  border: 2px solid white;
-  border-radius: 2px;
-  padding: 20px;
-  width: 320px;
-  text-transform: uppercase;
-}
-
-.button-donate:hover{
-  background: white;
-  color: #323232;
-}
 
 <<<<<<< Updated upstream
 /*For meta content and functionality:*/
@@ -77,27 +114,4 @@ section p {
   text-decoration: none;
   padding: 10px;
 >>>>>>> Stashed changes
-}
-
-/* incoming breakpoint */
-/* for larger than small screens */
-@media all and (min-width: 640px) {
-
-  body {
-    /*DEV*/background: rgba(255, 0, 0, 0.2);
-  }
-
-  section {
-    max-width: 960px;
-    margin: auto;
-  }
-
-  .intro {
-    height: 444px;
-    background-image: url(../assets/headerBg.jpg);
-    background-position: 0 750px, bottom;
-    background-size: cover;
-    color: white;
-  }
-
 }
