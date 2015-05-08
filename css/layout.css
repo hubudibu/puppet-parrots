@@ -7,7 +7,7 @@ section {
 
 section h1 {
   max-width: 320px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 section p {
@@ -277,7 +277,7 @@ section blockquote {
 
   section h1 {
     max-width: 620px;
-    margin: auto;
+    margin: 20px auto;
   }
 
   section p {
@@ -314,14 +314,14 @@ section blockquote {
 
 
   .why{
-    height: 444px;
+    min-height: 444px;
   }
 
   .how{
-    height: 444px;
+    min-height: 444px;
   }
 
   .join{
-    height: 444px;
+    min-height: 444px;
   }
 }
