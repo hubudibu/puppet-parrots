@@ -144,10 +144,17 @@ section p {
   /*DEV*/background: rgba(255, 0, 255, 0.2);
 }
 
+/*SOCIAL SECTION, ELEMENTS*/
 .social {
-  /*DEV*/background: rgba(255, 0, 0, 0.2);
+  background: #409b92;
 }
 
+.social li{
+  display: inline-block;
+  flaot: right;
+  height: 60px;
+  line-height: 60px;
+}
 
 /*For meta content and functionality:*/
 

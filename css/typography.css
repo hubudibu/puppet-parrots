@@ -28,7 +28,11 @@ p{
   padding: 5px 0;
 }
 
-.webname{
+.social a{
   text-indent: -9999px;
   font-size: 0px;
+}
+
+.facebook{
+  max-height: 50px;
 }
