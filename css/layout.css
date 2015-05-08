@@ -13,7 +13,6 @@ section h1 {
 section p {
   max-width: 290px;
   margin: auto;
-  text-align: justify;
 }
 
 
@@ -40,7 +39,6 @@ section p {
 
 .intro div{
   margin-top: 50px;
-
 }
 
 .intro p{
@@ -70,7 +68,6 @@ section p {
   text-decoration:none;
   cursor:pointer;
 }
-
 
 /*WHY SECTION, ELEMENTS*/
 .why {
@@ -128,15 +125,12 @@ section p {
   background: #e2e2e2;
 }
 
-
-
-
-
-
+/*GUIDELINE SECTION, ELEMENTS*/
 .guideline {
   /*DEV*/background: rgba(255, 255, 0, 0.2);
 }
 
+/*EXAMPLES SECTION, ELEMENTS*/
 .examples {
   /*DEV*/background: rgba(0, 255, 255, 0.2);
 }
@@ -162,7 +156,6 @@ section p {
   color: #8E8E8E;
   padding-top: 20px;
 }
-
 
 .button-join{
   position: relative;
@@ -207,10 +200,6 @@ section p {
   cursor:pointer;
 }
 
-
-
-
-
 /*SOCIAL SECTION, ELEMENTS*/
 .social {
   background: #409b92;
@@ -222,6 +211,9 @@ section p {
   height: 60px;
   line-height: 60px;
 }
+
+
+
 
 /*For meta content and functionality:*/
 
@@ -265,22 +257,52 @@ section p {
   }
 
   section h1 {
-    max-width: 520px;
+    max-width: 620px;
     margin: auto;
   }
 
   section p {
-    max-width: 490px;
+    max-width: 590px;
     margin: auto;
   }
 
   /*INTRO SECTION, ELEMENTS*/
   .intro {
     height: 444px;
-    background-image: url('../assets/background_why.svg');
+    background: #f2af5c;
+    background-image: url(../assets/header_bg.jpg);
     background-size: cover;
     padding-bottom: 20px;
     background-position: center;
   }
 
+  .logo{
+    background: rgba(0,0,0,0.2);
+    max-height: 100px;
+    padding: 10px 0;
+  }
+
+  .button-donate{
+    position: relative;
+    background: #1bcc68;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    color: white;
+    text-weight: 700;
+  }
+
+
+  .why{
+    height: 444px;
+  }
+
+  .how{
+    height: 444px;
+  }
+
+  .join{
+    height: 444px;
+  }
 }

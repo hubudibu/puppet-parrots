@@ -17,6 +17,7 @@ h1{
 p{
   font-weight: 300;
   font-size: 1em;
+  text-align: justify;
 }
 
 .button-donate a{
@@ -32,3 +33,16 @@ p{
   text-indent: -9999px;
   font-size: 0px;
 }
+
+/* for larger than small screens */
+@media all and (min-width: 640px) {
+
+
+  p{
+    text-align: left
+  }
+
+  .intro p{
+    font-weight: 300;
+    font-size: 1.5em;
+  }
