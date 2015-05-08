@@ -118,6 +118,7 @@ section p {
 
 #story {
   display: none;
+  max-width: 320px;
 }
 
 #story:target {
