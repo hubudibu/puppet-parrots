@@ -53,6 +53,7 @@ section p {
   background: #1bcc68;
   border-radius: 2px;
   padding: 10px;
+  width: 290px;
   text-transform: uppercase;
   color: white;
   text-weight: 700;
@@ -140,9 +141,75 @@ section p {
   /*DEV*/background: rgba(0, 255, 255, 0.2);
 }
 
+
+/*JOIN SECTION, ELEMENTS*/
 .join {
-  /*DEV*/background: rgba(255, 0, 255, 0.2);
+  background: #323232;
+  padding: 20px 0;
+  color: white;
 }
+
+.join div{
+  margin: 0 auto;
+  width: 280px;
+}
+
+.join p{
+  padding: 10px 0;
+}
+
+.andor{
+  color: #8E8E8E;
+  padding-top: 20px;
+}
+
+
+.button-join{
+  position: relative;
+  border: 2px solid #FFD858;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-weight: 700;
+}
+
+.button-join:hover{
+  background: #FFD858;
+  color: #323232;
+}
+
+.button-join a{
+  color: white;
+  font-weight: 300;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.button-buy{
+  position: relative;
+  background: #1bcc68;
+  border-radius: 2px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  text-weight: 700;
+}
+
+.button-buy:hover{
+  background: #17aa57;
+  color: #323232;
+}
+
+.button-buy a{
+  color: white;
+  font-weight: 700;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
+
+
 
 /*SOCIAL SECTION, ELEMENTS*/
 .social {
