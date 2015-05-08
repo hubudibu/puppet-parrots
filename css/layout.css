@@ -15,6 +15,12 @@ section p {
   margin: auto;
 }
 
+section blockquote {
+  max-width: 320px;
+  text-align: justify;
+  margin: auto;
+}
+
 
 /*For styling the sections:*/
 
@@ -127,12 +133,12 @@ section p {
 
 /*GUIDELINE SECTION, ELEMENTS*/
 .guideline {
-  /*DEV*/background: rgba(255, 255, 0, 0.2);
+
 }
 
 /*EXAMPLES SECTION, ELEMENTS*/
 .examples {
-  /*DEV*/background: rgba(0, 255, 255, 0.2);
+
 }
 
 
@@ -237,9 +243,18 @@ section p {
   padding: 10px;
 }
 
+.examples h1:after{
+  content: "...";
+  display: block;
+}
+
+.examples h1 a{
+  text-decoration: none;
+  color: black;
+}
+
 #story {
   display: none;
-  max-width: 320px;
 }
 
 #story:target {
@@ -252,7 +267,7 @@ section p {
 @media all and (min-width: 640px) {
 
   body {
-    /*DEV*/background: rgba(255, 0, 0, 0.2);
+
   }
 
   section {
