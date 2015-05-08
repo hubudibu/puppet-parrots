@@ -29,14 +29,48 @@ p{
   padding: 5px 0;
 }
 
+
 .social a{
-  text-indent: -9999px;
-  font-size: 0px;
+  color: #7ad3ca;
+  font-weight: 300;
+  text-decoration:none;
+  cursor:pointer;
+  padding: 0 30px;
 }
+
+.social li{
+  display: inline-block;
+  clear: both;
+}
+
+.facebook{
+  background-image: url(../assets/icon_facebook.svg);
+  background-repeat: no-repeat;
+  text-indent: -999999px;
+  size: 0px;
+}
+
+.twitter{
+  background-image: url(../assets/icon_twitter.svg);
+  background-repeat: no-repeat;
+  text-indent: -999999px;
+  size: 0px;
+}
+
+.linkedin{
+  background-image: url(../assets/icon_linkedin.svg);
+  background-repeat: no-repeat;
+  text-indent: -999999px;
+  size: 0px;
+}
+
 
 /* for larger than small screens */
 @media all and (min-width: 640px) {
 
+  h1{
+    font-size: 1.8em;
+  }
 
   p{
     text-align: left
