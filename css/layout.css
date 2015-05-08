@@ -146,8 +146,8 @@ section p {
 }
 
 
-<<<<<<< Updated upstream
 /*For meta content and functionality:*/
+
 .andor:before,
 .andor:after {
   /*DEV*/background: rgba(255, 0, 0, 0.2);
@@ -156,12 +156,21 @@ section p {
   height: 5px;
   border-bottom: 1px solid white;
   width: 600px;
-=======
+}
+
 .button-donate a{
   color: white;
   text-decoration: none;
   padding: 10px;
->>>>>>> Stashed changes
+}
+
+#story {
+  display: none;
+  max-width: 320px;
+}
+
+#story:target {
+  display: block;
 }
 
 
