@@ -6,19 +6,21 @@ section {
 }
 
 section h1 {
-  max-width: 520px;
+  max-width: 320px;
   margin: auto;
 }
 
 section p {
-  max-width: 490px;
+  max-width: 290px;
   margin: auto;
 }
-
 
 /*For styling the sections:*/
 .intro {
   /*DEV*/background: rgba(255, 0, 0, 0.2);
+  padding-bottom: 20px;
+
+
 }
 
 .why {
@@ -46,9 +48,20 @@ section p {
 }
 
 .button-donate{
-
+  position: relative;
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 20px;
+  width: 320px;
+  text-transform: uppercase;
 }
 
+.button-donate:hover{
+  background: white;
+  color: #323232;
+}
+
+<<<<<<< Updated upstream
 /*For meta content and functionality:*/
 .andor:before,
 .andor:after {
@@ -58,6 +71,12 @@ section p {
   height: 5px;
   border-bottom: 1px solid white;
   width: 600px;
+=======
+.button-donate a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+>>>>>>> Stashed changes
 }
 
 /* incoming breakpoint */
@@ -69,7 +88,7 @@ section p {
   }
 
   section {
-    max-width: 920px;
+    max-width: 960px;
     margin: auto;
   }
 
