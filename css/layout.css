@@ -78,9 +78,6 @@ section blockquote {
 /*WHY SECTION, ELEMENTS*/
 .why {
   background: #ffd858;
-  background-image: url(../assets/background_why.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   padding: 20px 0;
 }
 
@@ -314,14 +311,24 @@ section blockquote {
 
 
   .why{
-    min-height: 444px;
+    min-height: 300px;
+    background-image: url(../assets/bg_why.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom -130px;
   }
 
   .how{
-    min-height: 444px;
+    min-height: 340px;
+    background-image: url(../assets/bg_how.svg);
+    background-position: center bottom -80px;
+    background-repeat: no-repeat;
+
   }
 
   .join{
     min-height: 444px;
+    background-image: url(../assets/bg_join.svg);
+    background-position: center bottom -180px;
+    background-repeat: no-repeat;
   }
 }
