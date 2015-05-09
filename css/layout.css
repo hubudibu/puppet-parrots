@@ -40,6 +40,7 @@ section blockquote {
 
 .thumbnail {
   display: block;
+  background-image: url("assets/");
 }
 
 .logo{
@@ -285,6 +286,7 @@ section blockquote {
 
 ol {
   white-space: nowrap;
+  position: relative;
 }
 
 .slider li {
