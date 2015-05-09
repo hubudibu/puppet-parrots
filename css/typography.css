@@ -79,6 +79,7 @@ p{
   }
 
   .intro p{
+    text-shadow: 0 0 20px rgba(50,50,50,0.75);
     font-weight: 300;
     font-size: 1.5em;
   }
