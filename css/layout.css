@@ -79,8 +79,8 @@ section blockquote {
 .button-donate a{
   color: white;
   font-weight: 700;
-  text-decoration:none;
-  cursor:pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*WHY SECTION, ELEMENTS*/
@@ -264,6 +264,20 @@ section blockquote {
   color: white;
   text-decoration: none;
   padding: 10px;
+}
+
+.prevItem {
+
+}
+
+.slider {
+  width: 256px;
+  /*DEV*/background-color: red;
+  margin: auto;
+}
+
+.nextItem {
+
 }
 
 .examples a:after{
