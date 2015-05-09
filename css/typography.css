@@ -34,8 +34,8 @@ p{
 }
 
 .social ul{
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 200px;
 }
 
 .social a{
@@ -43,39 +43,33 @@ p{
   font-weight: 300;
   text-decoration:none;
   cursor:pointer;
-  padding: 30px;
-  background-size: 50px 50px;
+  padding: 50px;
+  background-size: 100px 100px;
 }
 
 .social li{
   display: inline-block;
+  height: 100px;
+  line-height: 100px;
 }
 
 .social ul{
-  height: 100px;
-  line-height: 100px;
+
 }
 
 .facebook{
   background-image: url(../assets/icon_facebook.svg);
   background-repeat: no-repeat;
-
-
 }
 
 .twitter{
   background-image: url(../assets/icon_twitter.svg);
   background-repeat: no-repeat;
-  text-indent: -999999px;
-
-
 }
 
 .linkedin{
   background-image: url(../assets/icon_linkedin.svg);
   background-repeat: no-repeat;
-  text-indent: -999999px;
-
 }
 
 
