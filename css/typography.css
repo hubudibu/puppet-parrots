@@ -29,15 +29,19 @@ p{
   padding: 5px 0;
 }
 
+.social ul{
+  height: 100px;
+  line-height: 100px;
+}
 
 .social a{
   color: #7ad3ca;
   font-weight: 300;
   text-decoration:none;
   cursor:pointer;
-  padding: 0 30px;
+  padding: 30px;
   height: 100px;
-  line-height: 50px;
+  line-height: 100px;
   background-size: 50px 50px;
 }
 
@@ -56,6 +60,7 @@ p{
   background-image: url(../assets/icon_twitter.svg);
   background-repeat: no-repeat;
   text-indent: -999999px;
+
 
 }
 
