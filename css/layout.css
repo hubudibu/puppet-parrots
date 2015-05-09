@@ -321,9 +321,15 @@ section blockquote {
   }
 
   .logo{
+    display: block;
     background: rgba(0,0,0,0.2);
     max-height: 100px;
     padding: 10px 0;
+  }
+
+  .pageTitle {
+    text-indent: -9999px;
+    overflow: hidden;
   }
 
   .button-donate{
