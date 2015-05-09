@@ -275,6 +275,20 @@ section blockquote {
 
 .slider {
   /*DEV*/background-color: red;
+  position: relative;
+}
+
+ol {
+  white-space: nowrap;
+}
+
+.silder li {
+  display: inline-block;
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
 }
 
 .nextItem , .prevItem {
