@@ -34,8 +34,18 @@ section blockquote {
   background-position: center;
 }
 
+.pageTitle {
+  display: block;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  display: block;
+}
+
 .logo{
   background: rgba(0,0,0,0.2);
+  display: none;
 }
 
 .intro div{
@@ -249,7 +259,7 @@ section blockquote {
   padding: 10px;
 }
 
-.examples h1:after{
+.examples a:after{
   content: "...";
   display: block;
 }
@@ -266,6 +276,12 @@ section blockquote {
 #story:target {
   display: block;
 }
+
+
+
+
+
+
 
 
 /* incoming breakpoint */
@@ -293,7 +309,7 @@ section blockquote {
 
   /*INTRO SECTION, ELEMENTS*/
   .intro {
-    height: 444px;
+    min-height: 444px;
     background: #f2af5c;
     background-image: url(../assets/header_bg.jpg);
     background-size: cover;
