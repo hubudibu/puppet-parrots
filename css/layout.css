@@ -7,7 +7,7 @@ section {
 
 section h1 {
   max-width: 320px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 section p {
@@ -45,6 +45,10 @@ section blockquote {
 .logo{
   background: rgba(0,0,0,0.2);
   display: none;
+}
+
+.intro h1{
+  padding-top: 10px;
 }
 
 .intro div{
@@ -164,8 +168,9 @@ section blockquote {
 }
 
 .join div{
-  margin: 0 auto;
+  margin: 30px auto;
   width: 280px;
+
 }
 
 .join p{
