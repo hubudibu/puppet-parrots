@@ -89,6 +89,9 @@ section blockquote {
 .why {
   background: #ffd858;
   padding: 20px 0;
+  background-image: url(../assets/bg_why.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom -130px;
 }
 
 .why p{
@@ -100,6 +103,9 @@ section blockquote {
 .how {
   background: #323232;
   padding: 20px 0;
+  background-image: url(../assets/bg_how.svg);
+  background-position: center bottom -80px;
+  background-repeat: no-repeat;
 }
 
 .how div{
@@ -154,6 +160,9 @@ section blockquote {
   background: #323232;
   padding: 20px 0;
   color: white;
+  background-image: url(../assets/bg_join.svg);
+  background-position: center bottom -180px;
+  background-repeat: no-repeat;
 }
 
 .join div{

@@ -36,32 +36,34 @@ p{
   text-decoration:none;
   cursor:pointer;
   padding: 0 30px;
+  height: 100px;
+  line-height: 50px;
+  background-size: 50px 50px;
 }
 
 .social li{
   display: inline-block;
-  clear: both;
 }
 
 .facebook{
   background-image: url(../assets/icon_facebook.svg);
   background-repeat: no-repeat;
-  text-indent: -999999px;
-  size: 0px;
+
+
 }
 
 .twitter{
   background-image: url(../assets/icon_twitter.svg);
   background-repeat: no-repeat;
   text-indent: -999999px;
-  size: 0px;
+
 }
 
 .linkedin{
   background-image: url(../assets/icon_linkedin.svg);
   background-repeat: no-repeat;
   text-indent: -999999px;
-  size: 0px;
+
 }
 
 
