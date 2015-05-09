@@ -274,17 +274,18 @@ section blockquote {
 }
 
 .slider {
-  /*DEV*/background-color: red;
   position: relative;
+  overflow: hidden;
 }
 
 ol {
   white-space: nowrap;
 }
 
-.silder li {
+.slider li {
   display: inline-block;
   width: 100%;
+  white-space: normal;
 }
 
 .slider img {
