@@ -266,18 +266,38 @@ section blockquote {
   padding: 10px;
 }
 
-.prevItem {
 
+.carousel-container {
+  position: relative;
+  /* This is the first parent element with a relative (non-static) position, therefore it's children relate to this when positioned absolutely */
+  padding: 0 30px;
 }
 
 .slider {
-  width: 256px;
   /*DEV*/background-color: red;
-  margin: auto;
 }
 
-.nextItem {
+.nextItem , .prevItem {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 30px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 3em;
+  margin-top: -25px;
+  padding-right: 3px;
+}
 
+.prevItem {
+  transform: scale(-1,1);
+  left: 0;
+  right: auto;
+  padding-right: 0;
+  padding-left: 3px;
 }
 
 .examples a:after{
