@@ -40,10 +40,14 @@ section blockquote {
 
 .thumbnail {
   display: block;
-  background-image: url("assets/");
+  background-image: url("../assets/thumbnail.png");
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
-.logo{
+.logo {
   background: rgba(0,0,0,0.2);
   display: none;
 }
@@ -350,6 +354,10 @@ ol {
 /* incoming breakpoint */
 /* for larger than small screens */
 @media all and (min-width: 640px) {
+
+  .thumbnail {
+    display: none;
+  }
 
   body {
 
