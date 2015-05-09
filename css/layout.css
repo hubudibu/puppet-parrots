@@ -28,8 +28,6 @@ section blockquote {
 /*INTRO SECTION, ELEMENTS*/
 .intro{
   background: #f2af5c;
-  background-image: url(../assets/header_bg.jpg);
-  background-size: cover;
   padding-bottom: 20px;
   background-position: center;
 }
@@ -37,6 +35,7 @@ section blockquote {
 .pageTitle {
   display: block;
   margin: 0 auto;
+  color: white;
 }
 
 .thumbnail {
