@@ -7,10 +7,14 @@ body{
   margin: 0 auto;
 }
 
+.nextItem , .prevItem {
+  zoom: 180%;
+}
+
 h1{
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 
