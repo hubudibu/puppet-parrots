@@ -5,6 +5,7 @@ var items = document.querySelector(".carousel-container ol");
 var width = items.querySelector("li").getBoundingClientRect().width;
 
 var left = 0;
+
 /*
 var clickCountLeft = 0;
 var clickCountRight = 0;
@@ -12,15 +13,21 @@ var itemsCount = items.childNodes;
 */
 /* divide itemsCount by two as it counts both <li> and <p> */
 
+window.addEventListener("resize",updateWidth);
 prev.addEventListener("click",rollLeft);
 next.addEventListener("click",rollRight);
+
+function updateWidth() {
+  width = items.querySelector("li").getBoundingClientRect().width;
+}
 
 console.log("width times 3 = " + width*3);
 
 function rollLeft() {
 
-  if (Math.abs(left) == (width*3)) {
-    left = 0;
+  if (left == 0) {
+    prev.style.display = "none";
+    next.style.display = "inline-block";
   }
 
   if ((Math.abs(left) < width*3) && left !=0 ) {
@@ -34,6 +41,8 @@ function rollRight() {
 
   if (Math.abs(left) == (width*3)) {
     left = 0;
+    next.style.display = "none";
+    prev.style.display = "inline-block";
   }
 
   if (Math.abs(left) < width*3 && left != width*3 ) {
