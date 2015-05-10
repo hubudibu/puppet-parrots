@@ -13,10 +13,8 @@ next.addEventListener("click",rollRight);
 function updateWidth() {
   width = items.querySelector("li").getBoundingClientRect().width;
   console.log("width changed");
-  /*
   items.style.left = 0;
   left = 0;
-  */
 }
 
 
