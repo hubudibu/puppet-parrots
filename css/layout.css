@@ -291,6 +291,8 @@ section blockquote {
 ol {
   white-space: nowrap;
   position: relative;
+  transition: position 0.5s ease-in;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 .slider li {
