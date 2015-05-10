@@ -158,7 +158,12 @@ section blockquote {
 
 /*EXAMPLES SECTION, ELEMENTS*/
 .examples {
+  background-color: Palegoldenrod;
+  color: Goldenrod;
+}
 
+.examples p{
+  color: goldenrod;
 }
 
 
