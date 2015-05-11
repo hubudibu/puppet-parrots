@@ -1,6 +1,11 @@
 /* for smaller than large screens */
 
 /*For layout purposes:*/
+
+body {
+  overflow: hidden;
+}
+
 section {
   width: 100%;
 }
