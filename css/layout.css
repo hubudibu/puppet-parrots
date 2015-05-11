@@ -311,6 +311,7 @@ ol {
 }
 
 .nextItem , .prevItem {
+  color: lightgray;
   background-color: transparent;
   border: none;
   position: absolute;
