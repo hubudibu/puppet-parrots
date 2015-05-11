@@ -38,29 +38,34 @@ console.log("width times 3 = " + width*3);
 
 function rollLeft() {
 
+  if (Math.abs(left) <= width*3 && left != 0) {
+    left = left + width;
+    items.style.left = left + "px";
+  }
+
   if (left == 0) {
     prev.style.display = "none";
     next.style.display = "inline-block";
-    return;
-  }
-
-  if (Math.abs(left) <= width*3) {
-    left = left + width;
-    items.style.left = left + "px";
   }
 }
 
 function rollRight() {
 
-  if (Math.abs(left) == (width*3)) {
-    next.style.display = "none";
-    prev.style.display = "inline-block";
-    return;
-  }
-
   if (Math.abs(left) < width*3 && left != width*3 ) {
     left = left - width;
     items.style.left = left + "px";
   }
-  console.log(Math.abs(left));
+
+  if (Math.abs(left) == (width*3)) {
+    next.style.display = "none";
+    prev.style.display = "inline-block";
+  }
+}
+
+document.addEventListener('DOMContentLoaded', preRoll, false);
+
+function preRoll(){
+  rollRight();
+  rollLeft();
+  console.log("preroll done");
 }
