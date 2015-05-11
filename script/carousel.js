@@ -1,3 +1,4 @@
+
 var prev = document.querySelector(".prevItem");
 var next = document.querySelector(".nextItem");
 var items = document.querySelector(".carousel-container ol");
@@ -8,7 +9,22 @@ var left = 0;
 
 window.addEventListener("resize",updateWidth);
 prev.addEventListener("click",rollLeft);
+window.addEventListener("keydown",keyRoll);
 next.addEventListener("click",rollRight);
+window.addEventListener("keydown",keyRoll);
+
+
+function keyRoll(e){
+    var keyCode = e.keyCode;
+    if(keyCode == 39){
+      console.log("left");
+      rollRight();
+    }
+    if(keyCode == 37){
+      rollLeft();
+      console.log("right");
+    }
+}
 
 function updateWidth() {
   width = items.querySelector("li").getBoundingClientRect().width;
