@@ -52,6 +52,12 @@ p{
   background-repeat: no-repeat;
 }
 
+.badge{
+  background-image: url(../assets/charity_enabled_badge.svg);
+  background-repeat: no-repeat;
+  background-position:center top;
+
+}
 
 /* for larger than small screens */
 @media all and (min-width: 640px) {
