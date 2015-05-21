@@ -455,24 +455,13 @@ ol {
   }
 
   .social {
-    background: #409b92;
     height: 100px;
     line-height: 100px;
   }
 
-  .social a{
-    display: inline-block;
-    float: right;
-    color: #7ad3ca;
-    cursor: pointer;
-    background-size: 80px 80px;
-  }
-
   .social li{
-    display: inline-block;
     height: 100px;
     width: 100px;
-    text-indent: -9999px;
   }
 
 }
