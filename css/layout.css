@@ -402,7 +402,7 @@ ol {
   .intro {
     min-height: 444px;
     background: #f2af5c;
-    background-image: url(../assets/header_bg.jpg);
+    background-image: url(../assets/header_bg2.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -465,4 +465,6 @@ ol {
     width: 100px;
   }
 
+  .badge a{
+    height: 30px;
 }
