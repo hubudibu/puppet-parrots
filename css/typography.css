@@ -37,30 +37,6 @@ p{
   padding: 5px 0;
 }
 
-.social ul{
-  height: 200px;
-  line-height: 200px;
-}
-
-.social a{
-  color: #7ad3ca;
-  font-weight: 300;
-  text-decoration:none;
-  cursor:pointer;
-  padding: 50px;
-  background-size: 100px 100px;
-}
-
-.social li{
-  display: inline-block;
-  height: 100px;
-  line-height: 100px;
-}
-
-.social ul{
-
-}
-
 .facebook{
   background-image: url(../assets/icon_facebook.svg);
   background-repeat: no-repeat;

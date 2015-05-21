@@ -239,23 +239,28 @@ section blockquote {
 /*SOCIAL SECTION, ELEMENTS*/
 .social {
   background: #409b92;
+  height: 80px;
+  line-height: 80px;
+}
+
+.social a{
+  display: inline-block;
+  float: right;
+  color: #7ad3ca;
+  cursor: pointer;
+  background-size: 80px 80px;
 }
 
 .social li{
   display: inline-block;
-  flaot: right;
-  height: 60px;
-  line-height: 60px;
+  height: 80px;
+  width: 80px;
+  text-indent: -9999px;
 }
 
+
 /*HASHTAGCHARITY BADGE*/
-.badge{
-  height: 60px;
-  margin: 0 auto;
-  padding: 20px;
-  width: 100px;
-  height: 100px;
-}
+
 
 /*AND/OR styling*/
 .andor {
@@ -448,4 +453,26 @@ ol {
     background-position: center bottom -180px;
     background-repeat: no-repeat;
   }
+
+  .social {
+    background: #409b92;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .social a{
+    display: inline-block;
+    float: right;
+    color: #7ad3ca;
+    cursor: pointer;
+    background-size: 80px 80px;
+  }
+
+  .social li{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-indent: -9999px;
+  }
+
 }
