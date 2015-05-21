@@ -238,39 +238,14 @@ section blockquote {
 
 /*SOCIAL SECTION, ELEMENTS*/
 .social {
-  background: #409b92;
-  height: 80px;
-  line-height: 80px;
-}
-
-.social a{
-  display: inline-block;
-  float: right;
-  color: #7ad3ca;
-  cursor: pointer;
-  background-size: 80px 80px;
+  background: red;
+  height: 150px;
+  line-height: 150px;
 }
 
 .social li{
-  display: inline-block;
-  height: 80px;
-  width: 80px;
-  text-indent: -9999px;
-}
-
-
-/*HASHTAGCHARITY BADGE*/
-.badge{
-  margin: 40px auto;
-}
-
-.badge a{
-  display: block;
-  color: #7ad3ca;
-  cursor: pointer;
-  height: 100px;
-  width: 180;
-  text-indent: -9999px;
+  display: inline;
+  
 }
 
 

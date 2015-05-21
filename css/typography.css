@@ -37,26 +37,28 @@ p{
   padding: 5px 0;
 }
 
-.facebook{
-  background-image: url(../assets/icon_facebook.svg);
+.facebook a{
+  background: url(../assets/icon_social.jpg);
   background-repeat: no-repeat;
+  background-position:center center;
 }
 
 .twitter{
-  background-image: url(../assets/icon_twitter.svg);
+  background-image: url(../assets/icon_social.jpg);
   background-repeat: no-repeat;
+  background-position:center center;
 }
 
 .linkedin{
-  background-image: url(../assets/icon_linkedin.svg);
+  background-image: url(../assets/icon_social.jpg);
   background-repeat: no-repeat;
+  background-position:center center;
 }
 
 .badge{
-  background-image: url(../assets/charity_enabled_badge.svg);
+  background-image: url(../assets/icon_social.jpg);
   background-repeat: no-repeat;
-  background-position:center top;
-
+  background-position:center center;
 }
 
 /* for larger than small screens */
