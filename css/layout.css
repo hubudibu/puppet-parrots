@@ -345,15 +345,17 @@ ol {
   color: black;
 }
 
-#story {
+#story .story-content{
   display: none;
 }
 
-#story:target {
+#story:target .story-content{
   display: block;
 }
 
-
+#story:target a:after{
+  display:none;
+}
 
 /* incoming breakpoint */
 /* for larger than small screens */
