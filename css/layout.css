@@ -249,9 +249,9 @@ section blockquote {
 
 /*SOCIAL SECTION, ELEMENTS*/
 .social {
-  background: red;
-  height: 150px;
-  line-height: 150px;
+  background: rgb(204, 199, 199);
+  height: 100px;
+  line-height: 100px;
 }
 
 /*AND/OR styling*/
