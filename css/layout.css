@@ -399,6 +399,7 @@ ol {
     display: block;
     max-height: 100px;
     padding: 10px 0;
+    margin: 0 auto;
   }
 
   .pageTitle {
