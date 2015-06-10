@@ -48,11 +48,6 @@ section blockquote {
   margin: 0 auto;
 }
 
-.logo {
-  background: rgba(0,0,0,0.2);
-  display: none;
-}
-
 .intro h1{
   padding-top: 10px;
 }
@@ -243,12 +238,6 @@ section blockquote {
   line-height: 150px;
 }
 
-.social li{
-  display: inline;
-  
-}
-
-
 /*AND/OR styling*/
 .andor {
   text-transform: uppercase;
@@ -388,7 +377,6 @@ ol {
 
   .logo{
     display: block;
-    background: rgba(0,0,0,0.2);
     max-height: 100px;
     padding: 10px 0;
   }
@@ -429,17 +417,4 @@ ol {
     background-position: center bottom -180px;
     background-repeat: no-repeat;
   }
-
-  .social {
-    height: 100px;
-    line-height: 100px;
-  }
-
-  .social li{
-    height: 100px;
-    width: 100px;
-  }
-
-  .badge a{
-    height: 30px;
 }

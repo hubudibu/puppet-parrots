@@ -36,29 +36,42 @@ p{
   max-height: 60px;
   padding: 5px 0;
 }
+.social{
+  height: 100px;
+  line-height: 100px;
+}
+
+.social a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position:center center;
+  overflow:hidden;
+  text-indent: 110%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.social li{
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .facebook a{
-  background: url(../assets/icon_social.jpg);
-  background-repeat: no-repeat;
-  background-position:center center;
+  background: url(../assets/icon_facebook.svg);
 }
 
-.twitter{
-  background-image: url(../assets/icon_social.jpg);
-  background-repeat: no-repeat;
-  background-position:center center;
+.twitter a{
+  background-image: url(../assets/icon_twitter.svg);
 }
 
-.linkedin{
-  background-image: url(../assets/icon_social.jpg);
-  background-repeat: no-repeat;
-  background-position:center center;
+.linkedin a{
+  background-image: url(../assets/icon_linkedin.svg);
 }
 
-.badge{
-  background-image: url(../assets/icon_social.jpg);
-  background-repeat: no-repeat;
-  background-position:center center;
+.badge a{
+  background-image: url(../assets/icon_badge.svg);
 }
 
 /* for larger than small screens */
