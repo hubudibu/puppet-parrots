@@ -146,11 +146,12 @@ section blockquote {
   font-style: italic;
 }
 
-.button-readmore{
+.how .button-readmore{
   position: relative;
   background: white;
   border-radius: 2px;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .button-readmore a{
