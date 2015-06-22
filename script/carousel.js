@@ -2,10 +2,14 @@
 var prev = document.querySelector(".prevItem");
 var next = document.querySelector(".nextItem");
 var items = document.querySelector(".carousel-container ol");
+var stepCount = document.querySelector(".carousel-container p span");
 
 var width = items.querySelector("li").getBoundingClientRect().width;
 
 var left = 0;
+var step = 1;
+
+// refraktor proposal: multiply width by steps for the win
 
 window.addEventListener("resize",updateWidth);
 prev.addEventListener("click",rollLeft);
@@ -41,6 +45,8 @@ function rollLeft() {
   if (Math.abs(left) <= width*3 && left != 0) {
     left = left + width;
     items.style.left = left + "px";
+    step--;
+    stepCount.textContent = step;
   }
 
   if (left === 0) {
@@ -56,6 +62,8 @@ function rollRight() {
   if (Math.abs(left) < width*3 && left != width*3 ) {
     left = left - width;
     items.style.left = left + "px";
+    step++;
+    stepCount.textContent = step;
   }
 
   if (Math.abs(left) === (width*3)) {
