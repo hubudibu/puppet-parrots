@@ -295,6 +295,7 @@ section blockquote {
 ol {
   white-space: nowrap;
   position: relative;
+  left: 0;
   transition: position 0.5s ease-in;
   -webkit-transition: all 0.2s ease-in-out;
 }
@@ -323,6 +324,7 @@ ol {
   margin-top: -50%;
   padding-right: 5px;
   z-index: 1337;
+  display: none;
 }
 
 .nextItem:focus , .prevItem:focus {
@@ -334,6 +336,10 @@ ol {
   right: auto;
   padding-right: 0;
   padding-left: 5px;
+}
+
+.nextItem {
+  display: inline-block;
 }
 
 .examples a:after{

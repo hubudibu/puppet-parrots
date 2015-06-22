@@ -68,8 +68,8 @@ function rollRight() {
 
 document.addEventListener('DOMContentLoaded', preRoll, false);
 
-function preRoll(){
-  rollRight();
-  rollLeft();
-  console.log("preroll done");
-}
+// function preRoll(){
+//   rollRight();
+//   rollLeft();
+//   console.log("preroll done");
+// }
