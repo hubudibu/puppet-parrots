@@ -16,11 +16,11 @@ window.addEventListener("keydown",keyRoll);
 
 function keyRoll(e){
     var keyCode = e.keyCode;
-    if(keyCode == 39){
+    if(keyCode === 39){
       console.log("left");
       rollRight();
     }
-    if(keyCode == 37){
+    if(keyCode === 37){
       rollLeft();
       console.log("right");
     }
@@ -43,8 +43,10 @@ function rollLeft() {
     items.style.left = left + "px";
   }
 
-  if (left == 0) {
+  if (left === 0) {
     prev.style.display = "none";
+  }
+  else {
     next.style.display = "inline-block";
   }
 }
@@ -56,8 +58,10 @@ function rollRight() {
     items.style.left = left + "px";
   }
 
-  if (Math.abs(left) == (width*3)) {
+  if (Math.abs(left) === (width*3)) {
     next.style.display = "none";
+  }
+  else {
     prev.style.display = "inline-block";
   }
 }
