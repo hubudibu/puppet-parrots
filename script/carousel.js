@@ -22,19 +22,19 @@ function keyRoll(e){
   if( document.documentElement.clientWidth < 640 ){
     var keyCode = e.keyCode;
     if(keyCode === 39){
-      console.log("left");
+      // console.log("left");
       rollRight();
     }
     if(keyCode === 37){
       rollLeft();
-      console.log("right");
+      // console.log("right");
     }
   }
 }
 
 function updateWidth() {
   width = items.querySelector("li").getBoundingClientRect().width;
-  console.log("width changed");
+  // console.log("width changed");
   items.style.left = 0;
   left = 0;
   if( document.documentElement.clientWidth < 640 ) {
@@ -47,7 +47,7 @@ function updateWidth() {
 }
 
 
-console.log("width times 3 = " + width*3);
+// console.log("width times 3 = " + width*3);
 
 function rollLeft() {
 
