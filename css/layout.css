@@ -335,6 +335,7 @@ ol {
   padding-right: 5px;
   z-index: 1337;
   display: none;
+  pointer-events: initial;
 }
 
 .nextItem:focus , .prevItem:focus {
@@ -456,4 +457,24 @@ ol {
     background-position: center bottom -180px;
     background-repeat: no-repeat;
   }
+
+  .slider li {
+    display: inline-block;
+    width: 20vw;
+    white-space: normal;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+
+  .nextItem , .prevItem {
+    display: none;
+    pointer-events: none;
+  }
+
+  .carousel-container p {
+    display: none;
+  }
+
 }

@@ -19,6 +19,7 @@ window.addEventListener("keydown",keyRoll);
 
 
 function keyRoll(e){
+  if( document.documentElement.clientWidth < 640 ){
     var keyCode = e.keyCode;
     if(keyCode === 39){
       console.log("left");
@@ -28,6 +29,7 @@ function keyRoll(e){
       rollLeft();
       console.log("right");
     }
+  }
 }
 
 function updateWidth() {
@@ -35,6 +37,8 @@ function updateWidth() {
   console.log("width changed");
   items.style.left = 0;
   left = 0;
+  prev.style.display = "none";
+  next.style.display = "none";
 }
 
 
