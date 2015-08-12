@@ -83,7 +83,7 @@ function rollRight() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', preRoll, false);
+// document.addEventListener('DOMContentLoaded', preRoll, false);
 
 // function preRoll(){
 //   rollRight();
