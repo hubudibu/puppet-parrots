@@ -466,6 +466,7 @@ ol {
     display: inline-block;
     width: 20vw;
     white-space: normal;
+    vertical-align: top;
   }
 
   .slider img {
