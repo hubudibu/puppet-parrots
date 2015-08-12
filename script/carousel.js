@@ -37,8 +37,13 @@ function updateWidth() {
   console.log("width changed");
   items.style.left = 0;
   left = 0;
+  if( document.documentElement.clientWidth < 640 ) {
+    next.style.display = "inline-block";
+  }
+  else {
+    next.style.display = "none";
+  }
   prev.style.display = "none";
-  next.style.display = "none";
 }
 
 
