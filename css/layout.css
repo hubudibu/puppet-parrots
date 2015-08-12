@@ -17,6 +17,7 @@ section h1 {
 section p {
   max-width: 290px;
   margin: auto;
+  text-align: center;
 }
 section blockquote p{
   position: relative;
