@@ -373,6 +373,8 @@ ol {
 /* for larger than small screens */
 @media all and (min-width: 640px) {
 
+
+
   .thumbnail {
     display: none;
   }
@@ -407,10 +409,7 @@ ol {
   }
 
   .logo{
-    display: block;
-    max-height: 100px;
-    padding: 10px 0;
-    margin: 0 auto;
+    display: none;
   }
 
   .pageTitle {
