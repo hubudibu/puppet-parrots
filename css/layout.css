@@ -261,11 +261,7 @@ section blockquote {
 }
 
 .social li {
-  margin: a auto;
-}
-
-.social li a {
-  text-align: justify;
+  margin: 0 auto;
 }
 
 /*AND/OR styling*/
