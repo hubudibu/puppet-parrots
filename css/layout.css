@@ -47,6 +47,10 @@ section blockquote {
 
 
 /*INTRO SECTION, ELEMENTS*/
+.logo{
+  display: none;
+}
+
 .intro{
   padding-top: 20px;
   background: #f2af5c;
@@ -409,7 +413,10 @@ ol {
   }
 
   .logo{
-    display: none;
+    display: block;
+    max-height: 100px;
+    padding: 10px 0;
+    margin: 0 auto;
   }
 
   .pageTitle {
